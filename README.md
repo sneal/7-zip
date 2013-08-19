@@ -14,6 +14,8 @@ Platform
 * Windows Server 2003 R2
 * Windows 7
 * Windows Server 2008 (R1, R2)
+* Windows 8
+* Windows Server 2012
 
 Cookbooks
 ---------
