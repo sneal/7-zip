@@ -28,6 +28,15 @@ Usage
 ### default
 Downloads and installs 7-zip to the location specified by `node['7-zip']['home']`.  Also ensures `node['7-zip']['home']` is in the system path.
 
+### Custom Resource
+
+A 7-zip package can be downloaded and unzipped using the `package` custom resource provided by this cookbook, e.g.:
+
+```
+seven_zip_package 'ffmpeg' do
+  source "http://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20151211-git-df2ce13-win64-static.7z"
+end
+```
 
 License & Authors
 -----------------
