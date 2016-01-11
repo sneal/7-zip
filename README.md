@@ -1,3 +1,8 @@
+Deprecated!
+==============
+
+Use the [seven_zip](https://github.com/daptiv/seven_zip) cookbook which replaces this one.
+
 7-zip Cookbook
 ==============
 [7-Zip](http://www.7-zip.org/) is a file archiver with a high compression ratio. This cookbook installs the full 7-zip suite of tools (GUI and CLI).
