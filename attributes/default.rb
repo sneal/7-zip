@@ -28,4 +28,4 @@ else
   default['7-zip']['package_name'] = "7-Zip 9.22"
 end
 
-default['7-zip']['home']    = "#{ENV['SYSTEMDRIVE']}\\7-zip"
+default['7-zip']['home']    = nil
