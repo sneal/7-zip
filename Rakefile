@@ -59,3 +59,10 @@ task :travis => ['style', 'spec', 'integration:cloud']
 
 # Default
 task :default => ['style', 'spec', 'integration:vagrant']
+
+begin
+  require 'kitchen/rake_tasks'
+  Kitchen::RakeTasks.new
+rescue LoadError
+  puts '>>>>> Kitchen gem not loaded, omitting tasks' unless ENV['CI']
+end
